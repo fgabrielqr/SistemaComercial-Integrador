@@ -46,7 +46,7 @@
 							echo "R$ ".$obj->obterTotal($ver[0]). ",00";
 						 ?>
 					</td>
-					<td><a href="../view/vendas/pagar.php?idvenda=<?php echo $ver[0] ?>" class="btn btn-danger btn-sm">Pagar</a></td>
+					<td><a href="../view/vendas/pagar.php?idvenda=<?php echo $ver[0] ?>" class="btn btn-success">Pagar</a></td>
 				</tr>
 		<?php endwhile; ?>
 			</table>
