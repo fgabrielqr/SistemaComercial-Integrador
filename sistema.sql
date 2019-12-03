@@ -69,7 +69,7 @@ CREATE TABLE usuarios (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE vendas (
-  id_venda int(11) NOT NULL,
+  id_venda int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
   id_cliente int(11) NOT NULL,
   id_produto int(11) NOT NULL,
   id int(11) NOT NULL,

@@ -10,7 +10,7 @@
 	$sql="SELECT id_venda,
 				dataCompra,
 				id_cliente 
-			from vendas group by id_venda";
+			from vendas WHERE pago = 0 group by id_venda";
 	$result=mysqli_query($conexao,$sql); 
 	?>
 
