@@ -37,9 +37,9 @@
 						</p>
 						<form id="frmLogin">
 							<label>Email</label>
-							<input type="text" class="form-control input-sm" name="email" id="email">
+							<input type="text" class="form-control input-sm" name="email" id="email" required>
 							<label>Senha</label>
-							<input type="password" name="senha" id="senha" class="form-control input-sm">
+							<input type="password" name="senha" id="senha" class="form-control input-sm" required>
 							<p></p>
 							<span class="btn btn-primary btn-sm" id="entrarSistema">Entrar</span>
 							<?php if(!$validar): ?>

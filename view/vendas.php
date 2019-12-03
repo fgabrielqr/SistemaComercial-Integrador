@@ -26,7 +26,7 @@
 		 		<div id="vendaProdutos"></div>
 		 		<div id="vendasFeitas">
 
-		 			
+				 
 <?php 
 
 	

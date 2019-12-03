@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Início</title>
+	<title>Sistema Comercial</title>
 	<?php require_once "menu.php" ?>
 </head>
 <body>

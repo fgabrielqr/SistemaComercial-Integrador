@@ -26,7 +26,7 @@
 					<td>Data</td>
 					<td>Cliente</td>
 					<td>Total da Compra</td>
-					
+					<td>Pagar</td>
 				</tr>
 		<?php while($ver=mysqli_fetch_row($result)): ?>
 				<tr>
@@ -46,6 +46,7 @@
 							echo "R$ ".$obj->obterTotal($ver[0]). ",00";
 						 ?>
 					</td>
+					<td><a href="../view/vendas/pagar.php?idvenda=<?php echo $ver[0] ?>" class="btn btn-danger btn-sm">Pagar</a></td>
 				</tr>
 		<?php endwhile; ?>
 			</table>

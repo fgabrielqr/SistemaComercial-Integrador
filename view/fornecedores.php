@@ -27,7 +27,7 @@ if(isset($_SESSION['usuario'])){
 						<input type="text" class="form-control input-sm" id="email" name="email">
 						<label>Telefone</label>
 						<input type="text" class="form-control input-sm" id="telefone" name="telefone">
-						<label>CPF</label>
+						<label>CNPJ</label>
 						<input type="text" class="form-control input-sm" id="cpf" name="cpf">
 						<p></p>
 						<span class="btn btn-primary" id="btnAdicionarFornecedores">Cadastrar</span>

@@ -39,11 +39,9 @@ CREATE TABLE fornecedores (
 
 CREATE TABLE imagens (
   id_imagem int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
-  id_categoria int(11) NOT NULL,
   nome varchar(100) NOT NULL,
   url varchar(100) NOT NULL,
-  dataUpload date NOT NULL,
-  foreign key(id_categoria) references categorias(id_categoria)
+  dataUpload date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE produtos (

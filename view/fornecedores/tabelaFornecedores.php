@@ -20,7 +20,7 @@ require_once "../../classes/conexao.php";
 	 		<td>Endereço</td>
 	 		<td>Email</td>
 	 		<td>Telefone</td>
-	 		<td>CPF</td>
+	 		<td>CNPJ</td>
 	 		<td>Editar</td>
 	</tr>
 

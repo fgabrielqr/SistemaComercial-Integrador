@@ -9,7 +9,7 @@
 
 <body>
 
-  <!-- Begin Navbar -->
+  <!-- Navbar -->
   <div id="nav">
     <div class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="100">
       <div class="container">
@@ -76,7 +76,7 @@
       <!--/.contatiner -->
     </div>
   </div>
-  <!-- Main jumbotron for a primary marketing message or call to action -->
+ 
 
 
 

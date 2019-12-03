@@ -35,13 +35,13 @@
 					<div class="panel panel-body">
 						<form id="frmRegistro">
 							<label>Nome</label>
-							<input type="text" class="form-control input-sm" name="nome" id="nome">
+							<input type="text" class="form-control input-sm" name="nome" id="nome" required>
 							<label>Usuário</label>
-							<input type="text" class="form-control input-sm" name="usuario" id="usuario">
+							<input type="text" class="form-control input-sm" name="usuario" id="usuario" required>
 							<label>Email</label>
-							<input type="text" class="form-control input-sm" name="email" id="email">
+							<input type="text" class="form-control input-sm" name="email" id="email" required>
 							<label>Senha</label>
-							<input type="password" class="form-control input-sm" name="senha" id="senha">
+							<input type="password" class="form-control input-sm" name="senha" id="senha" required>
 							<p></p>
 							<span class="btn btn-primary" id="registro">Registrar</span>
 							<a href="index.php" class="btn btn-default">Voltar Login</a>
